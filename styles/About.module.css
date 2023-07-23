@@ -1,0 +1,47 @@
+.aboutIntro {
+  width: 96%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 2rem;
+  gap: 0.6rem;
+}
+
+.aboutIntro > article {
+  margin: 0 0.2rem;
+}
+
+.about {
+  padding: 2rem 0;
+  width: 96%;
+  margin: 3vh auto;
+}
+
+.about > article {
+  line-height: 2.2rem;
+}
+
+.about > article > p {
+  margin-top: 2vh;
+}
+
+@media (max-width: 850px) {
+  .aboutIntro {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+
+  .aboutIntro img {
+    width: 100%;
+  }
+
+  .aboutIntro > article {
+    width: initial;
+  }
+
+  .about {
+    width: 96%;
+  }
+}

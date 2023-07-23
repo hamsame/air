@@ -1,0 +1,31 @@
+.services {
+  width: 95%;
+  margin: 0 2.5%;
+}
+
+.portfolioSec {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.portfolioSec div {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolioSec div img {
+  height: auto;
+  width: 100%;
+}
+
+@media (max-width: 950px) {
+  .portfolioSec {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .portfolioSec {
+    grid-template-columns: 1fr;
+  }
+}
